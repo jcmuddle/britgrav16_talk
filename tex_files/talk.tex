@@ -101,14 +101,29 @@ I would like to thank the following:
 
 \section{How do we model a neutron star?}
 \begin{frame}
-\frametitle{How do we model a neutron star?}
+\frametitle{What features do we need to consider?}
+\begin{columns}
+\column{0.5\textwidth}
+\begin{itemize}
+\item{Exterior - Vacuum/Plasma}
+\item{Atmosphere - Fluid}
+\item{Crust - Elastic Matter}
+\item{Core - Fluid}
+\end{itemize}
+\column{0.6\textwidth}
+\includegraphics[width=\textwidth]{../images/neutron_star_structure}
+\end{columns}
+\end{frame}
+\begin{frame}
+\frametitle{How do we model a neutron star numerically?}
 We want to solve the most realistic physical model possible using maximum resolution. Problem?
 \begin{itemize}
 \item{Important length-scales vary over 12 orders of magnitude if including viscous boundary layers.}
-\item{Using adaptive mesh refinement is not good enough to cover this range.}
+\item{Using adaptive mesh refinement cannot cover this range.}
 \end{itemize}
 Solution: \\
-Relativistic multimodel approach developed by Millmore \& Hawke.
+Relativistic multimodel approach developed by Millmore \& Hawke. \\
+Approximate interfaces to be infinitely thin.
 \end{frame}
 
 \begin{frame}
@@ -117,13 +132,19 @@ Simplify the most complex model by:
 \begin{itemize}
 \item{Taking appropriate limits in different regions of the domain.}
 \begin{itemize}
+\item{Force-free / Electro-vacuum / Multi-fluid MHD}
 \item{Ideal MHD / Resistive MHD}
 \item{Elasticity}
-\item{Force-free / Electro-vacuum / Multi-fluid MHD}
 \end{itemize}
 \item{Combining the different approximations with sharp interfaces.}
 \item{Using evolution equations based on conservation laws.}
+\begin{itemize}
+\item{This allows us to accurately capture the locations of shock waves}
+\end{itemize}
 \item{Moving the complicated physics to the interfaces.}
+\begin{itemize}
+\item{Boundary conditions to impose physics}
+\end{itemize}
 \end{itemize}
 This approach also allows a proper treatment of the surface. \\
 Therefore, we no longer need a numerical atmosphere. 

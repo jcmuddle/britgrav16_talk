@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.15)  30 MAR 2016 19:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.30)  30 MAR 2016 21:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -782,18 +782,18 @@ Package: animfp 2009/07/23 fixed point addition for animate.sty
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/media9/pdfbase.sty
 (/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2016/01/19 v6377 L3 programming layer (loader) 
+Package: expl3 2016/03/26 v6466 L3 programming layer (loader) 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-Package: expl3 2016/01/19 v6377 L3 programming layer (code)
-L3 Module: l3bootstrap 2016/01/01 v6339 L3 Bootstrap code
-L3 Module: l3names 2015/12/21 v6328 L3 Namespace for primitives
+Package: expl3 2016/03/26 v6466 L3 programming layer (code)
+L3 Module: l3bootstrap 2016/02/12 v6412 L3 Bootstrap code
+L3 Module: l3names 2016/03/11 v6433 L3 Namespace for primitives
 L3 Module: l3basics 2015/11/22 v6315 L3 Basic definitions
 L3 Module: l3expan 2015/09/10 v5983 L3 Argument expansion
-L3 Module: l3tl 2015/09/29 v6121 L3 Token lists
-L3 Module: l3str 2016/01/03 v6357 L3 Strings
+L3 Module: l3tl 2016/03/26 v6465 L3 Token lists
+L3 Module: l3str 2016/03/24 v6441 L3 Strings
 L3 Module: l3seq 2015/08/05 v5777 L3 Sequences and stacks
-L3 Module: l3int 2016/01/05 v6366 L3 Integers
+L3 Module: l3int 2016/03/24 v6441 L3 Integers
 \c_max_int=\count165
 \l_tmpa_int=\count166
 \l_tmpb_int=\count167
@@ -803,10 +803,10 @@ L3 Module: l3quark 2015/08/17 v5855 L3 Quarks
 L3 Module: l3prg 2015/11/01 v6216 L3 Control structures
 \g__prg_map_int=\count170
 L3 Module: l3clist 2015/09/02 v5901 L3 Comma separated lists
-L3 Module: l3token 2015/11/11 v6249 L3 Experimental token manipulation
+L3 Module: l3token 2016/03/26 v6465 L3 Experimental token manipulation
 L3 Module: l3prop 2016/01/05 v6366 L3 Property lists
-L3 Module: l3msg 2015/09/28 v6113 L3 Messages
-L3 Module: l3file 2015/12/03 v6317 L3 File and I/O operations
+L3 Module: l3msg 2016/03/26 v6464 L3 Messages
+L3 Module: l3file 2016/03/25 v6458 L3 File and I/O operations
 \l_iow_line_count_int=\count171
 \l__iow_target_count_int=\count172
 \l__iow_current_line_int=\count173
@@ -834,7 +834,7 @@ L3 Module: l3skip 2016/01/05 v6366 L3 Dimensions and skips
 L3 Module: l3keys 2015/11/17 v6284 L3 Key-value interfaces
 \g__keyval_level_int=\count176
 \l_keys_choice_int=\count177
-L3 Module: l3fp 2015/08/25 v5890 L3 Floating points
+L3 Module: l3fp 2016/03/26 v6465 L3 Floating points
 \c__fp_leading_shift_int=\count178
 \c__fp_middle_shift_int=\count179
 \c__fp_trailing_shift_int=\count180
@@ -850,7 +850,7 @@ L3 Module: l3box 2015/08/09 v5822 L3 Experimental boxes
 \l_tmpb_box=\box55
 \g_tmpa_box=\box56
 \g_tmpb_box=\box57
-L3 Module: l3coffins 2015/08/06 v5789 L3 Coffin code layer
+L3 Module: l3coffins 2016/03/24 v6440 L3 Coffin code layer
 \l__coffin_internal_box=\box58
 \l__coffin_internal_dim=\dimen196
 \l__coffin_offset_x_dim=\dimen197
@@ -872,7 +872,7 @@ L3 Module: l3coffins 2015/08/06 v5789 L3 Coffin code layer
 \l__coffin_display_y_dim=\dimen261
 L3 Module: l3color 2014/08/23 v5354 L3 Experimental color support
 L3 Module: l3sys 2015/09/25 v6087 L3 Experimental system/runtime functions
-L3 Module: l3candidates 2016/01/14 v6376 L3 Experimental additions to l3kernel
+L3 Module: l3candidates 2016/03/25 v6456 L3 Experimental additions to l3kernel
 \l__box_top_dim=\dimen262
 \l__box_bottom_dim=\dimen263
 \l__box_left_dim=\dimen264
@@ -889,14 +889,14 @@ L3 Module: l3candidates 2016/01/14 v6376 L3 Experimental additions to l3kernel
 \l__coffin_top_corner_dim=\dimen274
 \l__coffin_scaled_total_height_dim=\dimen275
 \l__coffin_scaled_width_dim=\dimen276
-L3 Module: l3luatex 2015/11/11 v6250 L3 Experimental LuaTeX-specific functions
+L3 Module: l3luatex 2016/03/26 v6465 L3 Experimental LuaTeX-specific functions
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
-File: l3pdfmode.def 2015/11/11 v6250 L3 Experimental driver: PDF mode
+File: l3pdfmode.def 2016/03/26 v6465 L3 Experimental driver: PDF mode
 \l__driver_color_stack_int=\count187
 ))
 (/usr/local/texlive/2015/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2016/01/19 v6377 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2016/03/26 v6466 LaTeX2e option processing using LaTeX3 keys
 )
 Package: pdfbase 2016/03/22 v0.8 driver independent access to low-level PDF fea
 tures
@@ -1188,28 +1188,35 @@ Overfull \hbox (1.09271pt too wide) has occurred while \output is active
 
 [6
 
-]
+] <../images/neutron_star_structure.pdf, id=258, 426.79132pt x 348.54625pt>
+File: ../images/neutron_star_structure.pdf Graphic file (type pdf)
+
+<use ../images/neutron_star_structure.pdf>
+Package pdftex.def Info: ../images/neutron_star_structure.pdf used on input lin
+e 116.
+(pdftex.def)             Requested size: 184.3758pt x 150.57399pt.
+
 Overfull \hbox (1.09271pt too wide) has occurred while \output is active
   [] [] [] [] [] []  
  []
 
 [7
 
-]
+ <../images/neutron_star_structure.pdf>]
 Overfull \hbox (1.09271pt too wide) has occurred while \output is active
   [] [] [] [] [] []  
  []
 
 [8
 
-] (./talk.toc)
+]
 Overfull \hbox (1.09271pt too wide) has occurred while \output is active
   [] [] [] [] [] []  
  []
 
 [9
 
-]
+] (./talk.toc)
 Overfull \hbox (1.09271pt too wide) has occurred while \output is active
   [] [] [] [] [] []  
  []
@@ -1237,14 +1244,14 @@ Overfull \hbox (1.09271pt too wide) has occurred while \output is active
 
 [13
 
-] (./talk.toc)
+]
 Overfull \hbox (1.09271pt too wide) has occurred while \output is active
   [] [] [] [] [] []  
  []
 
 [14
 
-]
+] (./talk.toc)
 Overfull \hbox (1.09271pt too wide) has occurred while \output is active
   [] [] [] [] [] []  
  []
@@ -1272,18 +1279,14 @@ Overfull \hbox (1.09271pt too wide) has occurred while \output is active
 
 [18
 
-] (./talk.toc)
+]
 Overfull \hbox (1.09271pt too wide) has occurred while \output is active
   [] [] [] [] [] []  
  []
 
 [19
 
-]
-Overfull \vbox (2.11494pt too high) detected at line 290
- []
-
-
+] (./talk.toc)
 Overfull \hbox (1.09271pt too wide) has occurred while \output is active
   [] [] [] [] [] []  
  []
@@ -1291,6 +1294,10 @@ Overfull \hbox (1.09271pt too wide) has occurred while \output is active
 [20
 
 ]
+Overfull \vbox (2.11494pt too high) detected at line 311
+ []
+
+
 Overfull \hbox (1.09271pt too wide) has occurred while \output is active
   [] [] [] [] [] []  
  []
@@ -1309,8 +1316,15 @@ Overfull \hbox (1.09271pt too wide) has occurred while \output is active
   [] [] [] [] [] []  
  []
 
-Package atenddvi Info: Last page = 23.
 [23
+
+]
+Overfull \hbox (1.09271pt too wide) has occurred while \output is active
+  [] [] [] [] [] []  
+ []
+
+Package atenddvi Info: Last page = 24.
+[24
 
 ]
 \tf@nav=\write6
@@ -1322,11 +1336,11 @@ Package atenddvi Info: Last page = 23.
 \tf@snm=\write8
 \openout8 = `talk.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 334.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 334.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 355.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 355.
  (./talk.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 334.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 334.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 355.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 355.
 Package rerunfilecheck Info: File `talk.out' has not changed.
 (rerunfilecheck)             Checksum: 69107317160FDE40EB9D8E7E1C0651BB;290.
 
@@ -1334,13 +1348,13 @@ Package rerunfilecheck Info: File `talk.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 334.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 355.
  ) 
 Here is how much of TeX's memory you used:
- 24897 strings out of 493033
- 485561 string characters out of 6134139
- 541206 words of memory out of 5000000
- 27911 multiletter control sequences out of 15000+600000
+ 24935 strings out of 493033
+ 486306 string characters out of 6134139
+ 541284 words of memory out of 5000000
+ 27944 multiletter control sequences out of 15000+600000
  12911 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,19n,64p,10409b,645s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1357,10 +1371,10 @@ ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/lo
 cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
 al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local
 /texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on talk.pdf (23 pages, 178349 bytes).
+Output written on talk.pdf (24 pages, 266177 bytes).
 PDF statistics:
- 871 PDF objects out of 1000 (max. 8388607)
- 808 compressed objects within 9 object streams
- 52 named destinations out of 1000 (max. 500000)
- 107 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 937 PDF objects out of 1000 (max. 8388607)
+ 859 compressed objects within 9 object streams
+ 54 named destinations out of 1000 (max. 500000)
+ 112 words of extra memory for PDF output out of 10000 (max. 10000000)
 
