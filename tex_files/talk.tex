@@ -5,8 +5,9 @@
 \usepackage{animate}
 \usepackage{mathtools}
 \title[Advanced Numerical Methods for Neutron Star Interfaces] % (optional, only for long titles)
-{Advanced Numerical Methods for}
-\subtitle{Neutron Star Interfaces}
+{Advanced Numerical Methods for \\
+Neutron Star Interfaces}
+\subtitle{}
 \author[John Muddle - @john$\_$muddle] % (optional, for multiple authors)
 {John Muddle}
 \institute[University of Southampton] % (optional)
@@ -33,6 +34,14 @@
 \end{frame}
 \begin{frame}
 \frametitle{Acknowledgements}
+I would like to thank the following:
+\begin{itemize}
+\item{Ian Hawke}
+\item{Southampton General Relativity Group}
+\item{STFC}
+\item{IOP}
+\item{CQG}
+\end{itemize}
 \end{frame}
  \begin{frame}
    \frametitle{Outline}
@@ -98,7 +107,8 @@ We want to solve the most realistic physical model possible using maximum resolu
 \item{Important length-scales vary over 12 orders of magnitude if including viscous boundary layers.}
 \item{Using adaptive mesh refinement is not good enough to cover this range.}
 \end{itemize}
-Solution: Use the multimodel approach in relativity developed by Millmore \& Hawke.
+Solution: \\
+Relativistic multimodel approach developed by Millmore \& Hawke.
 \end{frame}
 
 \begin{frame}
@@ -109,13 +119,14 @@ Simplify the most complex model by:
 \begin{itemize}
 \item{Ideal MHD / Resistive MHD}
 \item{Elasticity}
-\item{Force-free / Electro-vacuum}
+\item{Force-free / Electro-vacuum / Multi-fluid MHD}
 \end{itemize}
 \item{Combining the different approximations with sharp interfaces.}
 \item{Using evolution equations based on conservation laws.}
 \item{Moving the complicated physics to the interfaces.}
 \end{itemize}
-This approach allows a proper treatment of the surface instead of using an atmosphere.
+This approach also allows a proper treatment of the surface. \\
+Therefore, we no longer need a numerical atmosphere. 
 \end{frame}
 
 \section{Interfaces and Boundary Conditions}
@@ -132,14 +143,14 @@ This approach allows a proper treatment of the surface instead of using an atmos
 %\end{frame}
 
 \begin{frame}
-\frametitle{Tracking the surface}
+\frametitle{Tracking the Interface}
 We use a scalar level-set function $\phi$ to track the interface between two different models:
 \begin{columns}
 \column{5cm}
 \begin{itemize}
 \item{The level set is evolved by solving a Hamilton-Jacobi equation.}
-\item{The interface location is advected along with the interface velocity.}
-\item{Each component has its own level-set.}
+\item{The interface location is advected along with the physical velocity.}
+\item{Each model has its own level-set.}
 \end{itemize}
 \column{5cm}
 %\includegraphics[width=5cm]{images/levelset}
