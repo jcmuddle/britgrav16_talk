@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.30)  30 MAR 2016 21:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.30)  31 MAR 2016 21:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1138,193 +1138,142 @@ line 29.
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-Overfull \hbox (1.09271pt too wide) detected at line 29
-  [] [] [] [] [] []  
- []
-
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 (Font)              size <5> substituted on input line 34.
 
-
-Overfull \hbox (1.09271pt too wide) has occurred while \output is active
-  [] [] [] [] [] []  
- []
-
 [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-Overfull \hbox (1.09271pt too wide) has occurred while \output is active
-  [] [] [] [] [] []  
- []
-
 [2
 
-] (./talk.toc)
-Overfull \hbox (1.09271pt too wide) has occurred while \output is active
-  [] [] [] [] [] []  
- []
+] (./talk.toc) [3
 
-[3
-
-] (./talk.toc)
-Overfull \hbox (1.09271pt too wide) has occurred while \output is active
-  [] [] [] [] [] []  
- []
-
-[4
+] (./talk.toc) [4
 
 ]
-Overfull \hbox (1.09271pt too wide) has occurred while \output is active
-  [] [] [] [] [] []  
- []
+<../images/price_rosswog_press_1.jpg, id=190, 1607.00375pt x 1071.00125pt>
+File: ../images/price_rosswog_press_1.jpg Graphic file (type jpg)
 
-[5
+<use ../images/price_rosswog_press_1.jpg>
+Package pdftex.def Info: ../images/price_rosswog_press_1.jpg used on input line
+ 66.
+(pdftex.def)             Requested size: 138.2795pt x 92.15334pt.
+ [5
 
-] (./talk.toc)
-Overfull \hbox (1.09271pt too wide) has occurred while \output is active
-  [] [] [] [] [] []  
- []
+ <../images/price_rosswog_press_1.jpg>] (./talk.toc) [6
 
-[6
-
-] <../images/neutron_star_structure.pdf, id=258, 426.79132pt x 348.54625pt>
+]
+<../images/neutron_star_structure.pdf, id=259, 426.79132pt x 348.54625pt>
 File: ../images/neutron_star_structure.pdf Graphic file (type pdf)
 
 <use ../images/neutron_star_structure.pdf>
 Package pdftex.def Info: ../images/neutron_star_structure.pdf used on input lin
 e 116.
 (pdftex.def)             Requested size: 184.3758pt x 150.57399pt.
+ [7
 
-Overfull \hbox (1.09271pt too wide) has occurred while \output is active
-  [] [] [] [] [] []  
- []
+ <../images/neutron_star_structure.pdf>] [8
 
-[7
+] [9
 
- <../images/neutron_star_structure.pdf>]
-Overfull \hbox (1.09271pt too wide) has occurred while \output is active
-  [] [] [] [] [] []  
- []
-
-[8
+] [10
 
 ]
-Overfull \hbox (1.09271pt too wide) has occurred while \output is active
-  [] [] [] [] [] []  
- []
+<../images/multimodel_captured.pdf, id=430, 216.81pt x 217.09908pt>
+File: ../images/multimodel_captured.pdf Graphic file (type pdf)
 
-[9
+<use ../images/multimodel_captured.pdf>
+Package pdftex.def Info: ../images/multimodel_captured.pdf used on input line 1
+86.
+(pdftex.def)             Requested size: 169.01036pt x 169.24382pt.
+ [11
 
-] (./talk.toc)
-Overfull \hbox (1.09271pt too wide) has occurred while \output is active
-  [] [] [] [] [] []  
- []
+ <../images/multimodel_captured.pdf>] <../images/multimodel_captured_2.pdf, id=
+464, 216.81pt x 217.09908pt>
+File: ../images/multimodel_captured_2.pdf Graphic file (type pdf)
 
-[10
+<use ../images/multimodel_captured_2.pdf>
+Package pdftex.def Info: ../images/multimodel_captured_2.pdf used on input line
+ 200.
+(pdftex.def)             Requested size: 169.01036pt x 169.24382pt.
+ [12
 
-]
-Overfull \hbox (1.09271pt too wide) has occurred while \output is active
-  [] [] [] [] [] []  
- []
+ <../images/multimodel_captured_2.pdf>] <../images/multimodel_ghostcells.pdf, i
+d=505, 216.81pt x 216.81pt>
+File: ../images/multimodel_ghostcells.pdf Graphic file (type pdf)
 
-[11
+<use ../images/multimodel_ghostcells.pdf>
+Package pdftex.def Info: ../images/multimodel_ghostcells.pdf used on input line
+ 214.
+(pdftex.def)             Requested size: 169.01036pt x 169.01848pt.
+ [13
 
-]
-Overfull \hbox (1.09271pt too wide) has occurred while \output is active
-  [] [] [] [] [] []  
- []
+ <../images/multimodel_ghostcells.pdf>] <../images/euler_wave.pdf, id=546, 341.
+43306pt x 170.71654pt>
+File: ../images/euler_wave.pdf Graphic file (type pdf)
 
-[12
+<use ../images/euler_wave.pdf>
+Package pdftex.def Info: ../images/euler_wave.pdf used on input line 231.
+(pdftex.def)             Requested size: 184.3758pt x 92.18816pt.
+ [14
 
-]
-Overfull \hbox (1.09271pt too wide) has occurred while \output is active
-  [] [] [] [] [] []  
- []
+ <../images/euler_wave.pdf>]
+<../images/srmhd_wave.pdf, id=579, 341.43306pt x 170.71654pt>
+File: ../images/srmhd_wave.pdf Graphic file (type pdf)
 
-[13
+<use ../images/srmhd_wave.pdf>
+Package pdftex.def Info: ../images/srmhd_wave.pdf used on input line 248.
+(pdftex.def)             Requested size: 184.3758pt x 92.18816pt.
+ [15
 
-]
-Overfull \hbox (1.09271pt too wide) has occurred while \output is active
-  [] [] [] [] [] []  
- []
-
-[14
-
-] (./talk.toc)
-Overfull \hbox (1.09271pt too wide) has occurred while \output is active
-  [] [] [] [] [] []  
- []
-
-[15
-
-]
-Overfull \hbox (1.09271pt too wide) has occurred while \output is active
-  [] [] [] [] [] []  
- []
-
+ <../images/srmhd_wave.pdf>] (./talk.toc)
 [16
 
+] <../images/multimodel_roe_real.pdf, id=650, 234.8775pt x 241.45407pt>
+File: ../images/multimodel_roe_real.pdf Graphic file (type pdf)
+
+<use ../images/multimodel_roe_real.pdf>
+Package pdftex.def Info: ../images/multimodel_roe_real.pdf used on input line 2
+93.
+(pdftex.def)             Requested size: 184.9429pt x 190.12027pt.
+ [17
+
+ <../images/multimodel_roe_real.pdf>] <../images/multimodel_roe_ghost.pdf, id=6
+90, 234.8775pt x 241.45407pt>
+File: ../images/multimodel_roe_ghost.pdf Graphic file (type pdf)
+
+<use ../images/multimodel_roe_ghost.pdf>
+Package pdftex.def Info: ../images/multimodel_roe_ghost.pdf used on input line 
+308.
+(pdftex.def)             Requested size: 184.9429pt x 190.12027pt.
+ [18
+
+ <../images/multimodel_roe_ghost.pdf>] <../images/multimodel_roe.pdf, id=731, 2
+27.62204pt x 227.62204pt>
+File: ../images/multimodel_roe.pdf Graphic file (type pdf)
+
+<use ../images/multimodel_roe.pdf>
+Package pdftex.def Info: ../images/multimodel_roe.pdf used on input line 323.
+(pdftex.def)             Requested size: 184.9429pt x 184.94939pt.
+ [19
+
+ <../images/multimodel_roe.pdf>] [20
+
 ]
-Overfull \hbox (1.09271pt too wide) has occurred while \output is active
-  [] [] [] [] [] []  
- []
-
-[17
-
-]
-Overfull \hbox (1.09271pt too wide) has occurred while \output is active
-  [] [] [] [] [] []  
- []
-
-[18
-
-]
-Overfull \hbox (1.09271pt too wide) has occurred while \output is active
-  [] [] [] [] [] []  
- []
-
-[19
-
-] (./talk.toc)
-Overfull \hbox (1.09271pt too wide) has occurred while \output is active
-  [] [] [] [] [] []  
- []
-
-[20
-
-]
-Overfull \vbox (2.11494pt too high) detected at line 311
- []
-
-
-Overfull \hbox (1.09271pt too wide) has occurred while \output is active
-  [] [] [] [] [] []  
- []
-
 [21
 
-]
-Overfull \hbox (1.09271pt too wide) has occurred while \output is active
-  [] [] [] [] [] []  
- []
+] (./talk.toc) [22
 
-[22
+] [23
 
-]
-Overfull \hbox (1.09271pt too wide) has occurred while \output is active
-  [] [] [] [] [] []  
- []
+] [24
 
-[23
+] (./talk.toc) [25
 
 ]
-Overfull \hbox (1.09271pt too wide) has occurred while \output is active
-  [] [] [] [] [] []  
- []
-
-Package atenddvi Info: Last page = 24.
-[24
+Package atenddvi Info: Last page = 26.
+ [26
 
 ]
 \tf@nav=\write6
@@ -1336,45 +1285,43 @@ Package atenddvi Info: Last page = 24.
 \tf@snm=\write8
 \openout8 = `talk.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 355.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 355.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 493.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 493.
  (./talk.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 355.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 355.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 493.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 493.
 Package rerunfilecheck Info: File `talk.out' has not changed.
-(rerunfilecheck)             Checksum: 69107317160FDE40EB9D8E7E1C0651BB;290.
+(rerunfilecheck)             Checksum: 8BD02238BF5915B0B210718C244FAFD1;282.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 355.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 493.
  ) 
 Here is how much of TeX's memory you used:
- 24935 strings out of 493033
- 486306 string characters out of 6134139
- 541284 words of memory out of 5000000
- 27944 multiletter control sequences out of 15000+600000
+ 24989 strings out of 493033
+ 487866 string characters out of 6134139
+ 540284 words of memory out of 5000000
+ 27984 multiletter control sequences out of 15000+600000
  12911 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,19n,64p,10409b,645s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></
-usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
-r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/
-local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/lo
-cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/l
-ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/l
-ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/lo
-cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
-al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local
-/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on talk.pdf (24 pages, 266177 bytes).
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on talk.pdf (26 pages, 422205 bytes).
 PDF statistics:
- 937 PDF objects out of 1000 (max. 8388607)
- 859 compressed objects within 9 object streams
- 54 named destinations out of 1000 (max. 500000)
- 112 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1050 PDF objects out of 1200 (max. 8388607)
+ 952 compressed objects within 10 object streams
+ 58 named destinations out of 1000 (max. 500000)
+ 157 words of extra memory for PDF output out of 10000 (max. 10000000)
 

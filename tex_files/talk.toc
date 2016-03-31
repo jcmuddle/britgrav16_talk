@@ -1,6 +1,6 @@
 \beamer@endinputifotherversion {3.36pt}
 \beamer@sectionintoc {1}{Motivation: Neutron Stars}{4}{0}{1}
 \beamer@sectionintoc {2}{How do we model a neutron star?}{6}{0}{2}
-\beamer@sectionintoc {3}{Interfaces and Boundary Conditions}{10}{0}{3}
-\beamer@sectionintoc {4}{Surface Treatment}{15}{0}{4}
-\beamer@sectionintoc {5}{Toy Star}{20}{0}{5}
+\beamer@sectionintoc {3}{Interfaces and Boundary Conditions}{16}{0}{3}
+\beamer@sectionintoc {4}{Results}{22}{0}{4}
+\beamer@sectionintoc {5}{Conclusion}{25}{0}{5}

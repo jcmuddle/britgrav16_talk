@@ -39,8 +39,8 @@ I would like to thank the following:
 \item{Ian Hawke}
 \item{Southampton General Relativity Group}
 \item{STFC}
-\item{IOP}
-\item{CQG}
+\item{IOP Gravity Group}
+\item{Classical and Quantum Gravity}
 \end{itemize}
 \end{frame}
  \begin{frame}
@@ -60,7 +60,7 @@ I would like to thank the following:
 \item{Therefore, accurate numerical simulations are needed.}
 \end{itemize}
 \column{0.45\textwidth}
-%\includegraphics[width=\textwidth]{images/price_rosswog_press_1}\\
+\includegraphics[width=\textwidth]{../images/price_rosswog_press_1}\\
 \tiny Credit: Daniel Price (U/Exeter) and Stephan Rosswog (Int. U/Bremen)
 \end{columns}
 \end{frame}
@@ -150,6 +150,103 @@ This approach also allows a proper treatment of the surface. \\
 Therefore, we no longer need a numerical atmosphere. 
 \end{frame}
 
+%\begin{frame}
+%\frametitle{Conservation Laws}
+%\centering
+%$\frac{\partial \bf{q}(x,t)}{\partial x}  + \frac{\partial F(q(x,t))}{\partial x} = 0.$ 
+%$q^{n+1}_i = q^n_i + \frac{\Delta t}{\Delta x} \left(F^n_{i-1/2} + F^n_{i+1/2}\right)$ 
+%
+%\end{frame}
+\begin{frame}
+\frametitle{Conservation Laws}
+The evolution equations are a system of non-linear partial differential equations in conservation law form.
+\begin{equation}
+\frac{\partial \mathbf{q}(x,t)}{\partial x}  + \frac{\partial \mathbf{F}(\mathbf{q}(x,t))}{\partial x} = 0,
+\end{equation}
+where $\mathbf{q}$ are the conserved variables and $\mathbf{F}$ are the fluxes.\\
+The numerical update is then given by.
+\begin{equation}
+q^{n+1}_i = q^n_i + \frac{\Delta t}{\Delta x} \left(F^n_{i-1/2} - F^n_{i+1/2}\right),
+\end{equation}
+where $n$ is the time index and $i$ is the spatial index.
+\end{frame}
+
+\begin{frame}
+\frametitle{Numerical Grid}
+\begin{columns}
+\column{0.45\textwidth}
+\begin{itemize}
+\item{We define a grid on which to evolve our models}
+\item{The red line indicates the true interface}
+\item{The white line indicates the numerical interface}
+\end{itemize}
+\column{0.55\textwidth}
+\includegraphics[width=\textwidth]{../images/multimodel_captured.pdf}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Moving Interface}
+\begin{columns}
+\column{0.45\textwidth}
+\begin{itemize}
+\item{The interface is advected with the models}
+\item{The numerical interface tracks the physical interface}
+\item{Points can change model}
+\end{itemize}
+\column{0.55\textwidth}
+\includegraphics[width=\textwidth]{../images/multimodel_captured_2.pdf}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Ghost Zones}
+\begin{columns}
+\column{0.45\textwidth}
+\begin{itemize}
+\item{Each model has a region of ghost zones}
+\item{As the update of each point is non-local, it is important to fill these cells correctly}
+\item{How do we impose the correct boundary conditions? By filling the ghost cells}
+\end{itemize}
+\column{0.55\textwidth}
+\includegraphics[width=\textwidth]{../images/multimodel_ghostcells.pdf}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Riemann Problem and Solution}
+\begin{columns}
+\column{0.5\textwidth}
+\begin{itemize}
+\item{Each normal cell is updated by following the Godunov approch}
+\item{Each cell boundary is a Riemann problem}
+\item{A Riemann problem occurs when there is discontinuity}
+\item{We update each cell by calculating the flux through the boundaries}
+\end{itemize}
+\column{0.6\textwidth}
+\centering
+Hydro Riemann Fan
+\includegraphics[width=\textwidth]{../images/euler_wave.pdf}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Riemann Problem and Solution}
+\begin{columns}
+\column{0.5\textwidth}
+\begin{itemize}
+\item{Each normal cell is updated by following the Godunov approach}
+\item{Each cell boundary is a Riemann problem}
+\item{A Riemann problem occurs when there is discontinuity}
+\item{We update each cell by calculating the flux through the boundaries}
+\end{itemize}
+\column{0.6\textwidth}
+\centering
+SRMHD Riemann Fan
+\includegraphics[width=\textwidth]{../images/srmhd_wave.pdf}
+\end{columns}
+\end{frame}
+
 \section{Interfaces and Boundary Conditions}
 
 %\begin{frame}
@@ -163,27 +260,57 @@ Therefore, we no longer need a numerical atmosphere.
 %\end{columns}
 %\end{frame}
 
-\begin{frame}
-\frametitle{Tracking the Interface}
-We use a scalar level-set function $\phi$ to track the interface between two different models:
-\begin{columns}
-\column{5cm}
-\begin{itemize}
-\item{The level set is evolved by solving a Hamilton-Jacobi equation.}
-\item{The interface location is advected along with the physical velocity.}
-\item{Each model has its own level-set.}
-\end{itemize}
-\column{5cm}
+%\begin{frame}
+%\frametitle{Tracking the Interface}
+%We use a scalar level-set function $\phi$ to track the interface between two different models:
+%\begin{columns}
+%\column{5cm}
+%\begin{itemize}
+%\item{The level set is evolved by solving a Hamilton-Jacobi equation.}
+%\item{The interface location is advected along with the physical velocity.}
+%\item{Each model has its own level-set.}
+%\end{itemize}
+%\column{5cm}
 %\includegraphics[width=5cm]{images/levelset}
-\end{columns}
-\end{frame}
+%\end{columns}
+%\end{frame}
 
 
 \begin{frame}{Boundary Conditions: Ghost Fluid Method}
 \begin{columns}
 \column{6.5cm}
 \centering
-%\includegraphics[width=6.5cm]{images/multimodel_roe}
+\includegraphics[width=6.5cm]{../images/multimodel_roe_real}
+\column{4.5cm}
+Follow the ghost fluid approach.
+\begin{itemize}
+\item{Define left and right states.}
+\item{Calculate the star states using an appropriate method.}
+\item{Fill the points neighbouring the interface.}
+\item{Extrapolate into the ghost zones.}
+\end{itemize}
+\end{columns}
+\end{frame}
+\begin{frame}{Boundary Conditions: Ghost Fluid Method}
+\begin{columns}
+\column{6.5cm}
+\centering
+\includegraphics[width=6.5cm]{../images/multimodel_roe_ghost}
+\column{4.5cm}
+Follow the ghost fluid approach.
+\begin{itemize}
+\item{Define left and right states.}
+\item{Calculate the star states using an appropriate method.}
+\item{Fill the points neighbouring the interface.}
+\item{Extrapolate into the ghost zones.}
+\end{itemize}
+\end{columns}
+\end{frame}
+\begin{frame}{Boundary Conditions: Ghost Fluid Method}
+\begin{columns}
+\column{6.5cm}
+\centering
+\includegraphics[width=6.5cm]{../images/multimodel_roe}
 \column{4.5cm}
 Follow the ghost fluid approach.
 \begin{itemize}
@@ -224,6 +351,17 @@ This gives a linear system which we can easily solve,
 \end{equation}
 \end{frame}
 
+\section{Results}
+\begin{frame}
+\frametitle{Vorticity Propagation}
+\end{frame}
+\begin{frame}
+\frametitle{Toy Star}
+\end{frame}
+\section{Conclusion}
+\begin{frame}
+\frametitle{Conclusion}
+\end{frame}
 %\begin{frame}
 %\frametitle{How do we impose the interface boundary conditions}
 %In the case of a Hydro-Hydro interface problem we $N=2$ compatibility conditions.\\
@@ -238,118 +376,118 @@ This gives a linear system which we can easily solve,
 %The pressure and normal velocity are continuous across the interface.
 %\end{frame}
 
-\section{Surface Treatment}
-\begin{frame}
-\frametitle{What happens at the surface?}
-How to do we include the surface of the neutron star?
-\begin{itemize}
-\item{Current simulations set an atmosphere floor when cells evolve to an unphysical state.}
-\item{Typically, this atmosphere is 8 to 10 orders of magnitude lower than the central density [Reisswig 2013].}
-\item{We want to treat the surface as an interface and apply the Roe approximation method.}
-\item{This should allow us to accurately track the surface and have a true vacuum exterior.}
-\end{itemize}
-\end{frame}
-
-\begin{frame}
-\frametitle{Surface Treatment}
-How do we apply the Roe approximation method here?\\
-Consider the following situation: Hydro-Vacuum.\\
-\centering
-%\includegraphics[width=8cm]{images/toy_wave}\\
-\raggedright
-\end{frame}
-
-\begin{frame}
-\frametitle{What are the physical boundary conditions?}
-At the surface we expect the pressure and density to go to zero. \\
-We have the following primitive states:
-\begin{align}
-\mathbf{w}_L &= \{\rho, v^n, p\},\\
-\mathbf{w}_R&=\{0\}.
-\end{align}
-However, if we use both the pressure and the density then the problem is ill-posed. This is because we are only allowed one compatibility condition as there is only a single wave. \\
-Therefore, we need a new set of variables that are well-posed.
-\end{frame}
-
-\begin{frame}
-\frametitle{What are the appropriate variables?}
-For a polytropic equation of state the following relation is true, 
-\begin{equation}
-p = K \rho^{\gamma}.
-\end{equation}
-Therefore, we can fix the effective entropy $K$ at the surface. \\
-This gives us the following states,
-\begin{equation}
-\mathbf{w}_L = \{p,v^n,K\}, \quad \mathbf{w}_R = \{0\},
-\end{equation}
-and a single compatibility condition
-\begin{equation}
-\Delta p = 0.
-\end{equation}
-The resulting coefficient $c_L$ and eigenvector $\mathbf{r}_L$ are given by
-\begin{equation}
-c_L = \dfrac{p^{\frac{\gamma - 1}{2\gamma}}K^{\frac{1}{2\gamma}}}{\sqrt{\gamma}} \quad \mathbf{r}_L = \left\{-p^{\frac{1+\gamma}{2\gamma}}\sqrt{\gamma}K^{\frac{-1}{2\gamma}},1,0\right\}.
-\end{equation}
-\end{frame}
-
-\section{Toy Star}
-\begin{frame}
-\frametitle{Test: Toy Star}
-To validate our surface approach we apply it to a toy star [Price 2004].\\
-We augment the Euler equations with the following source terms,
-\begin{align}
-\partial_t \rho + \partial_x (\rho v) &= 0,\\
-\partial_t (\rho v) + \partial_x(\rho v^2 + p) &= -\rho x, \\
-\partial_t E + \partial_x([E+p]v) &= -\rho v x.
-\end{align}
-The following initial conditions produces a static star in a potential when $\gamma = 2$.
-\begin{align}
-\rho_0 &= (1-x^2),\\
-v_0 &= 0, \\
-p_0   &= \dfrac{\rho_0^\gamma }{4\rho_0(\gamma-1)}.
-\end{align}
-\end{frame}
-
-\begin{frame}
-\frametitle{Results: Toy Star}
-\begin{columns}
-\column{7.5cm}
-\centering
-%\includegraphics[width=7.0cm]{images/toy_density}
-\column{4.5cm}
-Results for a 400 point simulation. 
-\begin{itemize}
-\item{Initial density maximum below 1.0 due to discretisation.}
-\item{Maximum density then oscillates around 1.0.}
-\item{The density floor is set 14 orders of magnitude lower than the central density.}
-\end{itemize}
-\end{columns}
-\end{frame}
-
-\begin{frame}
-\frametitle{Results: Toy Star}
-\begin{columns}
-\column{7.5cm}
-\centering
-%\includegraphics[width=7.0cm]{images/toy_velocity}
-\column{4.5cm}
-\begin{itemize}
-\item{Due to numerical error the initial data is not static and the star expands.}
-\item{Velocity error reduces with increased resolution.}
-\item{The surface of the star oscillates.}
-\end{itemize}
-\end{columns}
-\end{frame}
-\begin{frame}
-\frametitle{Conclusion}
-Where do we stand?
-\begin{itemize}
-\item{Initial results are encouraging - stable and robust.}
-\item{More results required to show convergence and damping of maximum velocity.}
-\item{Extension to SR and the inclusion of magnetic fields needed.}
-\item{Apply to the aligned rotator problem to compare with other published results [Paschalidis 2013, Palenzuela 2013]. }
-\end{itemize}
-\centering
-Any Questions?
-\end{frame}
+%\section{Surface Treatment}
+%\begin{frame}
+%\frametitle{What happens at the surface?}
+%How to do we include the surface of the neutron star?
+%\begin{itemize}
+%\item{Current simulations set an atmosphere floor when cells evolve to an unphysical state.}
+%\item{Typically, this atmosphere is 8 to 10 orders of magnitude lower than the central density [Reisswig 2013].}
+%\item{We want to treat the surface as an interface and apply the Roe approximation method.}
+%\item{This should allow us to accurately track the surface and have a true vacuum exterior.}
+%\end{itemize}
+%\end{frame}
+%
+%\begin{frame}
+%\frametitle{Surface Treatment}
+%How do we apply the Roe approximation method here?\\
+%Consider the following situation: Hydro-Vacuum.\\
+%\centering
+%%\includegraphics[width=8cm]{images/toy_wave}\\
+%\raggedright
+%\end{frame}
+%
+%\begin{frame}
+%\frametitle{What are the physical boundary conditions?}
+%At the surface we expect the pressure and density to go to zero. \\
+%We have the following primitive states:
+%\begin{align}
+%\mathbf{w}_L &= \{\rho, v^n, p\},\\
+%\mathbf{w}_R&=\{0\}.
+%\end{align}
+%However, if we use both the pressure and the density then the problem is ill-posed. This is because we are only allowed one compatibility condition as there is only a single wave. \\
+%Therefore, we need a new set of variables that are well-posed.
+%\end{frame}
+%
+%\begin{frame}
+%\frametitle{What are the appropriate variables?}
+%For a polytropic equation of state the following relation is true, 
+%\begin{equation}
+%p = K \rho^{\gamma}.
+%\end{equation}
+%Therefore, we can fix the effective entropy $K$ at the surface. \\
+%This gives us the following states,
+%\begin{equation}
+%\mathbf{w}_L = \{p,v^n,K\}, \quad \mathbf{w}_R = \{0\},
+%\end{equation}
+%and a single compatibility condition
+%\begin{equation}
+%\Delta p = 0.
+%\end{equation}
+%The resulting coefficient $c_L$ and eigenvector $\mathbf{r}_L$ are given by
+%\begin{equation}
+%c_L = \dfrac{p^{\frac{\gamma - 1}{2\gamma}}K^{\frac{1}{2\gamma}}}{\sqrt{\gamma}} \quad \mathbf{r}_L = \left\{-p^{\frac{1+\gamma}{2\gamma}}\sqrt{\gamma}K^{\frac{-1}{2\gamma}},1,0\right\}.
+%\end{equation}
+%\end{frame}
+%
+%\section{Toy Star}
+%\begin{frame}
+%\frametitle{Test: Toy Star}
+%To validate our surface approach we apply it to a toy star [Price 2004].\\
+%We augment the Euler equations with the following source terms,
+%\begin{align}
+%\partial_t \rho + \partial_x (\rho v) &= 0,\\
+%\partial_t (\rho v) + \partial_x(\rho v^2 + p) &= -\rho x, \\
+%\partial_t E + \partial_x([E+p]v) &= -\rho v x.
+%\end{align}
+%The following initial conditions produces a static star in a potential when $\gamma = 2$.
+%\begin{align}
+%\rho_0 &= (1-x^2),\\
+%v_0 &= 0, \\
+%p_0   &= \dfrac{\rho_0^\gamma }{4\rho_0(\gamma-1)}.
+%\end{align}
+%\end{frame}
+%
+%\begin{frame}
+%\frametitle{Results: Toy Star}
+%\begin{columns}
+%\column{7.5cm}
+%\centering
+%%\includegraphics[width=7.0cm]{images/toy_density}
+%\column{4.5cm}
+%Results for a 400 point simulation. 
+%\begin{itemize}
+%\item{Initial density maximum below 1.0 due to discretisation.}
+%\item{Maximum density then oscillates around 1.0.}
+%\item{The density floor is set 14 orders of magnitude lower than the central density.}
+%\end{itemize}
+%\end{columns}
+%\end{frame}
+%
+%\begin{frame}
+%\frametitle{Results: Toy Star}
+%\begin{columns}
+%\column{7.5cm}
+%\centering
+%%\includegraphics[width=7.0cm]{images/toy_velocity}
+%\column{4.5cm}
+%\begin{itemize}
+%\item{Due to numerical error the initial data is not static and the star expands.}
+%\item{Velocity error reduces with increased resolution.}
+%\item{The surface of the star oscillates.}
+%\end{itemize}
+%\end{columns}
+%\end{frame}
+%\begin{frame}
+%\frametitle{Conclusion}
+%Where do we stand?
+%\begin{itemize}
+%\item{Initial results are encouraging - stable and robust.}
+%\item{More results required to show convergence and damping of maximum velocity.}
+%\item{Extension to SR and the inclusion of magnetic fields needed.}
+%\item{Apply to the aligned rotator problem to compare with other published results [Paschalidis 2013, Palenzuela 2013]. }
+%\end{itemize}
+%\centering
+%Any Questions?
+%\end{frame}
 \end{document}
