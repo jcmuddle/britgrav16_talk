@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.30)  1 APR 2016 10:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.30)  1 APR 2016 14:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -764,20 +764,20 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 (./talk.aux)
 \openout1 = `talk.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -843,7 +843,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box54
-Package hyperref Info: Link coloring OFF on input line 28.
+Package hyperref Info: Link coloring OFF on input line 55.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -853,66 +853,66 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count163
 )
-LaTeX Info: Redefining \ref on input line 28.
-LaTeX Info: Redefining \pageref on input line 28.
-LaTeX Info: Redefining \nameref on input line 28.
+LaTeX Info: Redefining \ref on input line 55.
+LaTeX Info: Redefining \pageref on input line 55.
+LaTeX Info: Redefining \nameref on input line 55.
 
 (./talk.out) (./talk.out)
 \@outlinefile=\write5
 \openout5 = `talk.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 28.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 55.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 28.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 55.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 28.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 28.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 28.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 28.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 55.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 28.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 28.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 28.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 55.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 28.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 28.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 28.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 55.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 28.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 28.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 55.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 28.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 55.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 28.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 28.
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 28.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 28.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 28.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 28.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 28.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 55.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 55.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 2
-8.
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 5
+5.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 
-28.
+55.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 28.
+ut line 55.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/translator/dicts/translato
 r-basic-dictionary/translator-basic-dictionary-English.dict
@@ -938,20 +938,20 @@ Dictionary: translator-numbers-dictionary, Language: English
 r-theorem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 28.
+LaTeX Info: Redefining \includegraphics on input line 55.
  (./talk.nav)
-LaTeX Font Info:    Try loading font information for U+msa on input line 28.
+LaTeX Font Info:    Try loading font information for U+msa on input line 55.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 28.
+LaTeX Font Info:    Try loading font information for U+msb on input line 55.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 28.
+line 55.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
@@ -959,7 +959,7 @@ thkerncmss.
 )
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 32.
+(Font)              size <5> substituted on input line 59.
 
 [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
@@ -971,24 +971,24 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 ] (./talk.toc) [4
 
 ]
-<../images/price_rosswog_press_1.jpg, id=190, 1607.00375pt x 1071.00125pt>
+<../images/price_rosswog_press_1.jpg, id=104, 1607.00375pt x 1071.00125pt>
 File: ../images/price_rosswog_press_1.jpg Graphic file (type jpg)
 
 <use ../images/price_rosswog_press_1.jpg>
 Package pdftex.def Info: ../images/price_rosswog_press_1.jpg used on input line
- 64.
+ 91.
 (pdftex.def)             Requested size: 138.2795pt x 92.15334pt.
  [5
 
  <../images/price_rosswog_press_1.jpg>] (./talk.toc) [6
 
 ]
-<../images/neutron_star_structure.pdf, id=259, 426.79132pt x 348.54625pt>
+<../images/neutron_star_structure.pdf, id=131, 426.79132pt x 348.54625pt>
 File: ../images/neutron_star_structure.pdf Graphic file (type pdf)
 
 <use ../images/neutron_star_structure.pdf>
 Package pdftex.def Info: ../images/neutron_star_structure.pdf used on input lin
-e 80.
+e 107.
 (pdftex.def)             Requested size: 184.3758pt x 150.57399pt.
  [7
 
@@ -999,81 +999,81 @@ e 80.
 ] [10
 
 ]
-<../images/multimodel_captured.pdf, id=430, 216.81pt x 217.09908pt>
+<../images/multimodel_captured.pdf, id=222, 216.81pt x 217.09908pt>
 File: ../images/multimodel_captured.pdf Graphic file (type pdf)
 
 <use ../images/multimodel_captured.pdf>
 Package pdftex.def Info: ../images/multimodel_captured.pdf used on input line 1
-43.
+70.
 (pdftex.def)             Requested size: 169.01036pt x 169.24382pt.
  [11
 
  <../images/multimodel_captured.pdf>] <../images/multimodel_captured_2.pdf, id=
-464, 216.81pt x 217.09908pt>
+236, 216.81pt x 217.09908pt>
 File: ../images/multimodel_captured_2.pdf Graphic file (type pdf)
 
 <use ../images/multimodel_captured_2.pdf>
 Package pdftex.def Info: ../images/multimodel_captured_2.pdf used on input line
- 157.
+ 184.
 (pdftex.def)             Requested size: 169.01036pt x 169.24382pt.
  [12
 
  <../images/multimodel_captured_2.pdf>] <../images/multimodel_ghostcells.pdf, i
-d=505, 216.81pt x 216.81pt>
+d=256, 216.81pt x 216.81pt>
 File: ../images/multimodel_ghostcells.pdf Graphic file (type pdf)
 
 <use ../images/multimodel_ghostcells.pdf>
 Package pdftex.def Info: ../images/multimodel_ghostcells.pdf used on input line
- 171.
+ 198.
 (pdftex.def)             Requested size: 169.01036pt x 169.01848pt.
  [13
 
- <../images/multimodel_ghostcells.pdf>] <../images/euler_wave.pdf, id=546, 341.
+ <../images/multimodel_ghostcells.pdf>] <../images/euler_wave.pdf, id=277, 341.
 43306pt x 170.71654pt>
 File: ../images/euler_wave.pdf Graphic file (type pdf)
 
 <use ../images/euler_wave.pdf>
-Package pdftex.def Info: ../images/euler_wave.pdf used on input line 188.
+Package pdftex.def Info: ../images/euler_wave.pdf used on input line 215.
 (pdftex.def)             Requested size: 184.3758pt x 92.18816pt.
  [14
 
  <../images/euler_wave.pdf>]
-<../images/srmhd_wave.pdf, id=579, 341.43306pt x 170.71654pt>
+<../images/srmhd_wave.pdf, id=292, 341.43306pt x 170.71654pt>
 File: ../images/srmhd_wave.pdf Graphic file (type pdf)
 
 <use ../images/srmhd_wave.pdf>
-Package pdftex.def Info: ../images/srmhd_wave.pdf used on input line 205.
+Package pdftex.def Info: ../images/srmhd_wave.pdf used on input line 232.
 (pdftex.def)             Requested size: 184.3758pt x 92.18816pt.
  [15
 
  <../images/srmhd_wave.pdf>] (./talk.toc)
 [16
 
-] <../images/multimodel_roe_real.pdf, id=650, 234.8775pt x 241.45407pt>
+] <../images/multimodel_roe_real.pdf, id=321, 234.8775pt x 241.45407pt>
 File: ../images/multimodel_roe_real.pdf Graphic file (type pdf)
 
 <use ../images/multimodel_roe_real.pdf>
 Package pdftex.def Info: ../images/multimodel_roe_real.pdf used on input line 2
-23.
+50.
 (pdftex.def)             Requested size: 184.9429pt x 190.12027pt.
  [17
 
- <../images/multimodel_roe_real.pdf>] <../images/multimodel_roe_ghost.pdf, id=6
-90, 234.8775pt x 241.45407pt>
+ <../images/multimodel_roe_real.pdf>] <../images/multimodel_roe_ghost.pdf, id=3
+41, 234.8775pt x 241.45407pt>
 File: ../images/multimodel_roe_ghost.pdf Graphic file (type pdf)
 
 <use ../images/multimodel_roe_ghost.pdf>
 Package pdftex.def Info: ../images/multimodel_roe_ghost.pdf used on input line 
-238.
+265.
 (pdftex.def)             Requested size: 184.9429pt x 190.12027pt.
  [18
 
- <../images/multimodel_roe_ghost.pdf>] <../images/multimodel_roe.pdf, id=731, 2
+ <../images/multimodel_roe_ghost.pdf>] <../images/multimodel_roe.pdf, id=361, 2
 27.62204pt x 227.62204pt>
 File: ../images/multimodel_roe.pdf Graphic file (type pdf)
 
 <use ../images/multimodel_roe.pdf>
-Package pdftex.def Info: ../images/multimodel_roe.pdf used on input line 253.
+Package pdftex.def Info: ../images/multimodel_roe.pdf used on input line 280.
 (pdftex.def)             Requested size: 184.9429pt x 184.94939pt.
  [19
 
@@ -1085,122 +1085,113 @@ Package pdftex.def Info: ../images/multimodel_roe.pdf used on input line 253.
 ] (./talk.toc) [22
 
 ]
-<../images/SRMHDBubbleBeta1000_t0_crop.png, id=871, 1541.76pt x 652.4375pt>
+<../images/SRMHDBubbleBeta1000_t0_crop.png, id=421, 1541.76pt x 652.4375pt>
 File: ../images/SRMHDBubbleBeta1000_t0_crop.png Graphic file (type png)
 
 <use ../images/SRMHDBubbleBeta1000_t0_crop.png>
 Package pdftex.def Info: ../images/SRMHDBubbleBeta1000_t0_crop.png used on inpu
-t line 289.
+t line 316.
 (pdftex.def)             Requested size: 307.28987pt x 130.03719pt.
  [23
 
  <../images/SRMHDBubbleBeta1000_t0_crop.png>]
-<../images/SRMHDBubbleBeta1000_t31_crop.png, id=904, 1541.76pt x 652.4375pt>
+<../images/SRMHDBubbleBeta1000_t31_crop.png, id=434, 1541.76pt x 652.4375pt>
 File: ../images/SRMHDBubbleBeta1000_t31_crop.png Graphic file (type png)
 
 <use ../images/SRMHDBubbleBeta1000_t31_crop.png>
 Package pdftex.def Info: ../images/SRMHDBubbleBeta1000_t31_crop.png used on inp
-ut line 294.
+ut line 321.
 (pdftex.def)             Requested size: 307.28987pt x 130.03719pt.
  [24
 
  <../images/SRMHDBubbleBeta1000_t31_crop.png>]
-<../images/SRMHDBubbleBeta1000_t59_crop.png, id=937, 1541.76pt x 652.4375pt>
+<../images/SRMHDBubbleBeta1000_t59_crop.png, id=446, 1541.76pt x 652.4375pt>
 File: ../images/SRMHDBubbleBeta1000_t59_crop.png Graphic file (type png)
 
 <use ../images/SRMHDBubbleBeta1000_t59_crop.png>
 Package pdftex.def Info: ../images/SRMHDBubbleBeta1000_t59_crop.png used on inp
-ut line 299.
+ut line 326.
 (pdftex.def)             Requested size: 307.28987pt x 130.03719pt.
  [25
 
  <../images/SRMHDBubbleBeta1000_t59_crop.png>]
-<../images/SRMHDBubbleBeta1000_t125_crop.png, id=970, 1541.76pt x 652.4375pt>
+<../images/SRMHDBubbleBeta1000_t125_crop.png, id=459, 1541.76pt x 652.4375pt>
 File: ../images/SRMHDBubbleBeta1000_t125_crop.png Graphic file (type png)
 
 <use ../images/SRMHDBubbleBeta1000_t125_crop.png>
 Package pdftex.def Info: ../images/SRMHDBubbleBeta1000_t125_crop.png used on in
-put line 304.
+put line 331.
 (pdftex.def)             Requested size: 307.28987pt x 130.03719pt.
  [26
 
  <../images/SRMHDBubbleBeta1000_t125_crop.png>] [27
 
 ]
-<../images/SRMHDBubbleBeta001_t0_crop.png, id=1034, 1541.76pt x 652.4375pt>
+<../images/SRMHDBubbleBeta001_t0_crop.png, id=482, 1541.76pt x 652.4375pt>
 File: ../images/SRMHDBubbleBeta001_t0_crop.png Graphic file (type png)
 
 <use ../images/SRMHDBubbleBeta001_t0_crop.png>
 Package pdftex.def Info: ../images/SRMHDBubbleBeta001_t0_crop.png used on input
- line 318.
+ line 345.
 (pdftex.def)             Requested size: 307.28987pt x 130.03719pt.
  [28
 
  <../images/SRMHDBubbleBeta001_t0_crop.png>]
-<../images/SRMHDBubbleBeta001_t31_crop.png, id=1066, 1541.76pt x 652.4375pt>
+<../images/SRMHDBubbleBeta001_t31_crop.png, id=494, 1541.76pt x 652.4375pt>
 File: ../images/SRMHDBubbleBeta001_t31_crop.png Graphic file (type png)
 
 <use ../images/SRMHDBubbleBeta001_t31_crop.png>
 Package pdftex.def Info: ../images/SRMHDBubbleBeta001_t31_crop.png used on inpu
-t line 323.
+t line 350.
 (pdftex.def)             Requested size: 307.28987pt x 130.03719pt.
  [29
 
  <../images/SRMHDBubbleBeta001_t31_crop.png>]
-<../images/SRMHDBubbleBeta001_t59_crop.png, id=1098, 1541.76pt x 652.4375pt>
+<../images/SRMHDBubbleBeta001_t59_crop.png, id=506, 1541.76pt x 652.4375pt>
 File: ../images/SRMHDBubbleBeta001_t59_crop.png Graphic file (type png)
 
 <use ../images/SRMHDBubbleBeta001_t59_crop.png>
 Package pdftex.def Info: ../images/SRMHDBubbleBeta001_t59_crop.png used on inpu
-t line 328.
+t line 355.
 (pdftex.def)             Requested size: 307.28987pt x 130.03719pt.
  [30
 
  <../images/SRMHDBubbleBeta001_t59_crop.png>]
-<../images/SRMHDBubbleBeta001_t125_crop.png, id=1131, 1541.76pt x 652.4375pt>
+<../images/SRMHDBubbleBeta001_t125_crop.png, id=519, 1541.76pt x 652.4375pt>
 File: ../images/SRMHDBubbleBeta001_t125_crop.png Graphic file (type png)
 
 <use ../images/SRMHDBubbleBeta001_t125_crop.png>
 Package pdftex.def Info: ../images/SRMHDBubbleBeta001_t125_crop.png used on inp
-ut line 333.
+ut line 360.
 (pdftex.def)             Requested size: 307.28987pt x 130.03719pt.
  [31
 
  <../images/SRMHDBubbleBeta001_t125_crop.png>] [32
 
 ]
-<../images/toy_density.pdf, id=1195, 562.39713pt x 550.45744pt>
+<../images/toy_density.pdf, id=543, 562.39713pt x 550.45744pt>
 File: ../images/toy_density.pdf Graphic file (type pdf)
 
 <use ../images/toy_density.pdf>
-Package pdftex.def Info: ../images/toy_density.pdf used on input line 356.
+Package pdftex.def Info: ../images/toy_density.pdf used on input line 383.
 (pdftex.def)             Requested size: 169.01036pt x 165.41568pt.
  [33
 
  <../images/toy_density.pdf>]
-<../images/toy_velocity.pdf, id=1255, 590.50813pt x 550.45744pt>
-File: ../images/toy_velocity.pdf Graphic file (type pdf)
-
-<use ../images/toy_velocity.pdf>
-Package pdftex.def Info: ../images/toy_velocity.pdf used on input line 371.
-(pdftex.def)             Requested size: 169.01036pt x 157.54553pt.
- [34
-
- <../images/toy_velocity.pdf>]
-<../images/toy_max_vx.pdf, id=1300, 646.46837pt x 575.29842pt>
+<../images/toy_max_vx.pdf, id=582, 646.46837pt x 575.29842pt>
 File: ../images/toy_max_vx.pdf Graphic file (type pdf)
 
 <use ../images/toy_max_vx.pdf>
-Package pdftex.def Info: ../images/toy_max_vx.pdf used on input line 387.
+Package pdftex.def Info: ../images/toy_max_vx.pdf used on input line 414.
 (pdftex.def)             Requested size: 169.01036pt x 150.39922pt.
- [35
+ [34
 
  <../images/toy_max_vx.pdf>] (./talk.toc)
-[36
+[35
+
+] [36
 
 ] [37
-
-] [38
 
 ]
 \tf@nav=\write6
@@ -1212,11 +1203,11 @@ Package pdftex.def Info: ../images/toy_max_vx.pdf used on input line 387.
 \tf@snm=\write8
 \openout8 = `talk.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 405.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 405.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 432.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 432.
  (./talk.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 405.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 405.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 432.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 432.
 Package rerunfilecheck Info: File `talk.out' has not changed.
 (rerunfilecheck)             Checksum: 8BD02238BF5915B0B210718C244FAFD1;282.
 
@@ -1224,16 +1215,16 @@ Package rerunfilecheck Info: File `talk.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 405.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 432.
  ) 
 Here is how much of TeX's memory you used:
- 17678 strings out of 493033
- 343240 string characters out of 6134139
- 408649 words of memory out of 5000000
- 20686 multiletter control sequences out of 15000+600000
+ 17646 strings out of 493033
+ 342321 string characters out of 6134139
+ 407594 words of memory out of 5000000
+ 20657 multiletter control sequences out of 15000+600000
  17592 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,19n,64p,403b,645s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,19n,57p,403b,593s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
@@ -1249,10 +1240,10 @@ l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local
 /texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
 texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on talk.pdf (38 pages, 1009474 bytes).
+Output written on talk.pdf (37 pages, 962305 bytes).
 PDF statistics:
- 1510 PDF objects out of 1728 (max. 8388607)
- 1381 compressed objects within 14 object streams
- 82 named destinations out of 1000 (max. 500000)
- 212 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 712 PDF objects out of 1000 (max. 8388607)
+ 595 compressed objects within 6 object streams
+ 80 named destinations out of 1000 (max. 500000)
+ 195 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -3,6 +3,7 @@
 \usetheme{Ilmenau}
 \usepackage{graphics}
 \usepackage{mathtools}
+\beamertemplatenavigationsymbolsempty
 \title[Advanced Numerical Methods for Neutron Star Interfaces] % (optional, only for long titles)
 {Advanced Numerical Methods for \\
 Neutron Star Interfaces}
@@ -11,7 +12,7 @@ Neutron Star Interfaces}
 {John Muddle}
 \institute[University of Southampton] % (optional)
 {
-  School of Mathematics\\
+  Mathematical Sciences\\
   University of Southampton\\[1\baselineskip]
   Supervisor - Dr Ian Hawke
 
@@ -25,6 +26,32 @@ Neutron Star Interfaces}
     \tableofcontents[currentsection]
   \end{frame}
 }
+%change color fot the institute
+\setbeamercolor{institute in head/foot}{fg=white}
+\makeatletter
+%change the footline template to include frame numbers
+\defbeamertemplate*{footline}{myminiframes theme}
+  {%
+    \begin{beamercolorbox}[colsep=1.5pt]{upper separation line foot}
+    \end{beamercolorbox}
+    \begin{beamercolorbox}[ht=2.5ex,dp=1.125ex,%
+      leftskip=.3cm,rightskip=.3cm plus1fil]{author in head/foot}%
+      \leavevmode{\usebeamerfont{author in head/foot}\insertshortauthor}%
+      \hfill%
+      {\usebeamerfont{institute in head/foot}\usebeamercolor[fg]{institute in head/foot}\insertshortinstitute}%
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[ht=2.5ex,dp=1.125ex,%
+      leftskip=.3cm,rightskip=.3cm plus1fil]{title in head/foot}%
+      {\usebeamerfont{title in head/foot}\insertshorttitle\hfill \insertframenumber/\inserttotalframenumber}%<-here
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[colsep=1.5pt]{lower separation line foot}
+    \end{beamercolorbox}
+  }
+\makeatother
+
+%change look of sections in ToC
+\defbeamertemplate*{section in toc}{mysections in toc}
+{\leavevmode ---\,\inserttocsection\par}
 \begin{document}
 
 \begin{frame}
@@ -147,7 +174,7 @@ where $n$ is the time index and $i$ is the spatial index.
 \begin{columns}
 \column{0.45\textwidth}
 \begin{itemize}
-\item{The interface is advected with the models.}
+\item{The interface is advected with the physical velocity from the models.}
 \item{The numerical interface tracks the physical interface.}
 \item{Points can change model.}
 \end{itemize}
@@ -254,7 +281,7 @@ Follow the ghost fluid approach.
 
 \begin{frame}
 \frametitle{How do we calculate the star states?}
-To calculate the star states we follow the Roe approximation method and linearise about an appropriate state $\mathbf{w}_X(\mathbf{q}_X)$ for the left and right states, where $X = L/R$,
+Follow the Roe approximation method: linearise about an appropriate state $\mathbf{w}_X(\mathbf{q}_X)$ for the left and right states, where $X = L/R$,
 \begin{equation}
 \partial_t\mathbf{w}_X + \hat{A}_X\partial_{\mathnormal{x}}\mathbf{w}_X = 0.
 \end{equation}
@@ -269,7 +296,7 @@ where $\mathbf{r}_X$ are the right eigenvectors of the matrix $\hat{A}_X$.
 \begin{frame}
 \frametitle{How do we impose the interface boundary conditions?}
 To calculate the coefficients $c^X$ we need  $N = N_L + N_R$ compatibility conditions at the interface, where $N_X$ is the number of waves between the initial and star state.\\
-It is through these compatibility conditions that we impose the correct physical boundary conditions at the interface.\\
+Through these compatibility conditions we impose the correct physical boundary conditions at the interface.\\
 We assume that these compatibility conditions take the form:
 
 \begin{equation}
@@ -309,7 +336,7 @@ This gives a linear system which we can easily solve,
 \item{As with the hydrodynamical case, vorticity is produced at the interface.}
 \item{In the presence of a magnetic field, the vorticity begins to detach.}
 \item{Vorticity is propagated via the Alfv\'{e}n waves.}
-\item{This occurs in the regime, where the hydrodynamical pressure dominates the magnetic pressure.}
+\item{This occurs in the regime where the hydrodynamical pressure dominates the magnetic pressure.}
 \end{itemize}
 \end{frame}
 \begin{frame}
@@ -355,20 +382,20 @@ This gives a linear system which we can easily solve,
 \end{columns}
 \end{frame}
 
-\begin{frame}
-\frametitle{Toy Star: Vacuum - Hydro}
-\begin{columns}
-\column{0.55\textwidth}
-\begin{itemize}
-\item{The velocity profile shows that the star is oscillating.}
-\item{The velocity increases at the edges due to the decrease in density.}
-\item{The velocity at the edges appears to be increasing!}
-\end{itemize}
-\column{0.55\textwidth}
-\centering
-\includegraphics[width=\textwidth]{../images/toy_velocity}
-\end{columns}
-\end{frame}
+%\begin{frame}
+%\frametitle{Toy Star: Vacuum - Hydro}
+%\begin{columns}
+%\column{0.55\textwidth}
+%\begin{itemize}
+%\item{The velocity profile shows that the star is oscillating.}
+%\item{The velocity increases at the edges due to the decrease in density.}
+%\item{The velocity at the edges appears to be increasing!}
+%\end{itemize}
+%\column{0.55\textwidth}
+%\centering
+%\includegraphics[width=\textwidth]{../images/toy_velocity}
+%\end{columns}
+%\end{frame}
 
 \begin{frame}
 \frametitle{Toy Star: Vacuum - Hydro}
@@ -392,7 +419,7 @@ This gives a linear system which we can easily solve,
 \begin{itemize}
 \item{We have developed a new approach for combining different systems of conservation laws.}
 \item{We have applied this to relativistic Ideal MHD and shown that vorticity propagates away from interfaces via the Alfv\'{e}n waves.}
-\item{These tests have also been performed at Mach 40 and been shown to be robust.}
+\item{These shock bubble tests have also been performed at Mach 40 and been shown to be robust.}
 \item{We have also shown that this approach can be applied to vacuum interfaces in the presence of gravity.}
 \end{itemize}
 \end{frame}
