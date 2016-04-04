@@ -97,7 +97,7 @@ I would like to thank the following:
 \column{0.5\textwidth}
 \begin{itemize}
 \item{Exterior - Vacuum/Plasma}
-\item{Atmosphere - Fluid}
+\item{Atmosphere/Ocean - Fluid}
 \item{Crust - Elastic Matter}
 \item{Core - Fluid}
 \end{itemize}
@@ -187,7 +187,7 @@ where $n$ is the time index and $i$ is the spatial index.
 \frametitle{Ghost Zones}
 \begin{columns}
 \column{0.45\textwidth}
-\begin{itemize}
+\begin{itemize}x
 \item{Each model has a region of ghost zones.}
 \item{As the update of each point is non-local, it is important to fill these cells correctly.}
 \item{How do we impose the correct boundary conditions? By filling the ghost cells.}
@@ -221,7 +221,7 @@ Hydro Riemann Fan
 \begin{itemize}
 \item{Each normal cell is updated by following the Godunov approach.}
 \item{Each cell boundary is a Riemann problem.}
-\item{A Riemann problem occurs when there is discontinuity.}
+\item{A Riemann problem occurs when there is a discontinuity.}
 \item{We update each cell by calculating the flux through the boundaries.}
 \end{itemize}
 \column{0.6\textwidth}
