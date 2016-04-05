@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.30)  4 APR 2016 17:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.30)  5 APR 2016 08:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -971,7 +971,7 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 ] (./talk.toc) [4
 
 ]
-<../images/price_rosswog_press_1.jpg, id=104, 1607.00375pt x 1071.00125pt>
+<../images/price_rosswog_press_1.jpg, id=108, 1607.00375pt x 1071.00125pt>
 File: ../images/price_rosswog_press_1.jpg Graphic file (type jpg)
 
 <use ../images/price_rosswog_press_1.jpg>
@@ -983,7 +983,7 @@ Package pdftex.def Info: ../images/price_rosswog_press_1.jpg used on input line
  <../images/price_rosswog_press_1.jpg>] (./talk.toc) [6
 
 ]
-<../images/neutron_star_structure.pdf, id=131, 426.79132pt x 348.54625pt>
+<../images/neutron_star_structure.pdf, id=135, 426.79132pt x 348.54625pt>
 File: ../images/neutron_star_structure.pdf Graphic file (type pdf)
 
 <use ../images/neutron_star_structure.pdf>
@@ -999,7 +999,7 @@ e 107.
 ] [10
 
 ]
-<../images/multimodel_captured.pdf, id=222, 216.81pt x 217.09908pt>
+<../images/multimodel_captured.pdf, id=226, 216.81pt x 217.09908pt>
 File: ../images/multimodel_captured.pdf Graphic file (type pdf)
 
 <use ../images/multimodel_captured.pdf>
@@ -1009,7 +1009,7 @@ Package pdftex.def Info: ../images/multimodel_captured.pdf used on input line 1
  [11
 
  <../images/multimodel_captured.pdf>] <../images/multimodel_captured_2.pdf, id=
-236, 216.81pt x 217.09908pt>
+240, 216.81pt x 217.09908pt>
 File: ../images/multimodel_captured_2.pdf Graphic file (type pdf)
 
 <use ../images/multimodel_captured_2.pdf>
@@ -1019,7 +1019,7 @@ Package pdftex.def Info: ../images/multimodel_captured_2.pdf used on input line
  [12
 
  <../images/multimodel_captured_2.pdf>] <../images/multimodel_ghostcells.pdf, i
-d=256, 216.81pt x 216.81pt>
+d=260, 216.81pt x 216.81pt>
 File: ../images/multimodel_ghostcells.pdf Graphic file (type pdf)
 
 <use ../images/multimodel_ghostcells.pdf>
@@ -1028,7 +1028,7 @@ Package pdftex.def Info: ../images/multimodel_ghostcells.pdf used on input line
 (pdftex.def)             Requested size: 169.01036pt x 169.01848pt.
  [13
 
- <../images/multimodel_ghostcells.pdf>] <../images/euler_wave.pdf, id=277, 341.
+ <../images/multimodel_ghostcells.pdf>] <../images/euler_wave.pdf, id=281, 341.
 43306pt x 170.71654pt>
 File: ../images/euler_wave.pdf Graphic file (type pdf)
 
@@ -1038,7 +1038,7 @@ Package pdftex.def Info: ../images/euler_wave.pdf used on input line 215.
  [14
 
  <../images/euler_wave.pdf>]
-<../images/srmhd_wave.pdf, id=292, 341.43306pt x 170.71654pt>
+<../images/srmhd_wave.pdf, id=296, 341.43306pt x 170.71654pt>
 File: ../images/srmhd_wave.pdf Graphic file (type pdf)
 
 <use ../images/srmhd_wave.pdf>
@@ -1049,7 +1049,7 @@ Package pdftex.def Info: ../images/srmhd_wave.pdf used on input line 232.
  <../images/srmhd_wave.pdf>] (./talk.toc)
 [16
 
-] <../images/multimodel_roe_real.pdf, id=321, 234.8775pt x 241.45407pt>
+] <../images/multimodel_roe_real.pdf, id=325, 234.8775pt x 241.45407pt>
 File: ../images/multimodel_roe_real.pdf Graphic file (type pdf)
 
 <use ../images/multimodel_roe_real.pdf>
@@ -1059,7 +1059,7 @@ Package pdftex.def Info: ../images/multimodel_roe_real.pdf used on input line 2
  [17
 
  <../images/multimodel_roe_real.pdf>] <../images/multimodel_roe_ghost.pdf, id=3
-41, 234.8775pt x 241.45407pt>
+45, 234.8775pt x 241.45407pt>
 File: ../images/multimodel_roe_ghost.pdf Graphic file (type pdf)
 
 <use ../images/multimodel_roe_ghost.pdf>
@@ -1068,7 +1068,7 @@ Package pdftex.def Info: ../images/multimodel_roe_ghost.pdf used on input line
 (pdftex.def)             Requested size: 184.9429pt x 190.12027pt.
  [18
 
- <../images/multimodel_roe_ghost.pdf>] <../images/multimodel_roe.pdf, id=361, 2
+ <../images/multimodel_roe_ghost.pdf>] <../images/multimodel_roe.pdf, id=365, 2
 27.62204pt x 227.62204pt>
 File: ../images/multimodel_roe.pdf Graphic file (type pdf)
 
@@ -1085,7 +1085,7 @@ Package pdftex.def Info: ../images/multimodel_roe.pdf used on input line 280.
 ] (./talk.toc) [22
 
 ]
-<../images/SRMHDBubbleBeta1000_t0_crop.png, id=421, 1541.76pt x 652.4375pt>
+<../images/SRMHDBubbleBeta1000_t0_crop.png, id=425, 1541.76pt x 652.4375pt>
 File: ../images/SRMHDBubbleBeta1000_t0_crop.png Graphic file (type png)
 
 <use ../images/SRMHDBubbleBeta1000_t0_crop.png>
@@ -1095,7 +1095,7 @@ t line 316.
  [23
 
  <../images/SRMHDBubbleBeta1000_t0_crop.png>]
-<../images/SRMHDBubbleBeta1000_t31_crop.png, id=434, 1541.76pt x 652.4375pt>
+<../images/SRMHDBubbleBeta1000_t31_crop.png, id=438, 1541.76pt x 652.4375pt>
 File: ../images/SRMHDBubbleBeta1000_t31_crop.png Graphic file (type png)
 
 <use ../images/SRMHDBubbleBeta1000_t31_crop.png>
@@ -1105,7 +1105,7 @@ ut line 321.
  [24
 
  <../images/SRMHDBubbleBeta1000_t31_crop.png>]
-<../images/SRMHDBubbleBeta1000_t59_crop.png, id=446, 1541.76pt x 652.4375pt>
+<../images/SRMHDBubbleBeta1000_t59_crop.png, id=450, 1541.76pt x 652.4375pt>
 File: ../images/SRMHDBubbleBeta1000_t59_crop.png Graphic file (type png)
 
 <use ../images/SRMHDBubbleBeta1000_t59_crop.png>
@@ -1115,7 +1115,7 @@ ut line 326.
  [25
 
  <../images/SRMHDBubbleBeta1000_t59_crop.png>]
-<../images/SRMHDBubbleBeta1000_t125_crop.png, id=459, 1541.76pt x 652.4375pt>
+<../images/SRMHDBubbleBeta1000_t125_crop.png, id=463, 1541.76pt x 652.4375pt>
 File: ../images/SRMHDBubbleBeta1000_t125_crop.png Graphic file (type png)
 
 <use ../images/SRMHDBubbleBeta1000_t125_crop.png>
@@ -1127,7 +1127,7 @@ put line 331.
  <../images/SRMHDBubbleBeta1000_t125_crop.png>] [27
 
 ]
-<../images/SRMHDBubbleBeta001_t0_crop.png, id=482, 1541.76pt x 652.4375pt>
+<../images/SRMHDBubbleBeta001_t0_crop.png, id=486, 1541.76pt x 652.4375pt>
 File: ../images/SRMHDBubbleBeta001_t0_crop.png Graphic file (type png)
 
 <use ../images/SRMHDBubbleBeta001_t0_crop.png>
@@ -1137,7 +1137,7 @@ Package pdftex.def Info: ../images/SRMHDBubbleBeta001_t0_crop.png used on input
  [28
 
  <../images/SRMHDBubbleBeta001_t0_crop.png>]
-<../images/SRMHDBubbleBeta001_t31_crop.png, id=494, 1541.76pt x 652.4375pt>
+<../images/SRMHDBubbleBeta001_t31_crop.png, id=498, 1541.76pt x 652.4375pt>
 File: ../images/SRMHDBubbleBeta001_t31_crop.png Graphic file (type png)
 
 <use ../images/SRMHDBubbleBeta001_t31_crop.png>
@@ -1147,7 +1147,7 @@ t line 350.
  [29
 
  <../images/SRMHDBubbleBeta001_t31_crop.png>]
-<../images/SRMHDBubbleBeta001_t59_crop.png, id=506, 1541.76pt x 652.4375pt>
+<../images/SRMHDBubbleBeta001_t59_crop.png, id=510, 1541.76pt x 652.4375pt>
 File: ../images/SRMHDBubbleBeta001_t59_crop.png Graphic file (type png)
 
 <use ../images/SRMHDBubbleBeta001_t59_crop.png>
@@ -1157,7 +1157,7 @@ t line 355.
  [30
 
  <../images/SRMHDBubbleBeta001_t59_crop.png>]
-<../images/SRMHDBubbleBeta001_t125_crop.png, id=519, 1541.76pt x 652.4375pt>
+<../images/SRMHDBubbleBeta001_t125_crop.png, id=523, 1541.76pt x 652.4375pt>
 File: ../images/SRMHDBubbleBeta001_t125_crop.png Graphic file (type png)
 
 <use ../images/SRMHDBubbleBeta001_t125_crop.png>
@@ -1169,7 +1169,7 @@ ut line 360.
  <../images/SRMHDBubbleBeta001_t125_crop.png>] [32
 
 ]
-<../images/toy_density.pdf, id=543, 562.39713pt x 550.45744pt>
+<../images/toy_density.pdf, id=547, 562.39713pt x 550.45744pt>
 File: ../images/toy_density.pdf Graphic file (type pdf)
 
 <use ../images/toy_density.pdf>
@@ -1178,7 +1178,7 @@ Package pdftex.def Info: ../images/toy_density.pdf used on input line 383.
  [33
 
  <../images/toy_density.pdf>]
-<../images/toy_max_vx.pdf, id=582, 646.46837pt x 575.29842pt>
+<../images/toy_max_vx.pdf, id=586, 646.46837pt x 575.29842pt>
 File: ../images/toy_max_vx.pdf Graphic file (type pdf)
 
 <use ../images/toy_max_vx.pdf>
@@ -1218,13 +1218,13 @@ LaTeX Font Warning: Size substitutions with differences
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 432.
  ) 
 Here is how much of TeX's memory you used:
- 17646 strings out of 493033
- 342321 string characters out of 6134139
- 407594 words of memory out of 5000000
- 20657 multiletter control sequences out of 15000+600000
+ 17664 strings out of 493033
+ 342919 string characters out of 6134139
+ 408212 words of memory out of 5000000
+ 20675 multiletter control sequences out of 15000+600000
  17592 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,19n,57p,403b,593s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,19n,64p,403b,645s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
@@ -1240,10 +1240,10 @@ l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local
 /texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
 texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on talk.pdf (37 pages, 962326 bytes).
+Output written on talk.pdf (37 pages, 964692 bytes).
 PDF statistics:
- 712 PDF objects out of 1000 (max. 8388607)
- 595 compressed objects within 6 object streams
+ 716 PDF objects out of 1000 (max. 8388607)
+ 597 compressed objects within 6 object streams
  80 named destinations out of 1000 (max. 500000)
- 195 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 207 words of extra memory for PDF output out of 10000 (max. 10000000)
 
